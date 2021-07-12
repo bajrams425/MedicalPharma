@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "531112994482",
+    "project_id": "medicalpharma-b4a7a",
+    "storage_bucket": "medicalpharma-b4a7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531112994482:android:31fc76a6d19ccfeafc8bab",
+        "android_client_info": {
+          "package_name": "com.example.medicalpharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531112994482-cthoebsstvj0ikpo1a00m66iiodlidt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicalpharma",
+            "certificate_hash": "674916f7120e30f5c853a63e346a5d431ac97e5c"
+          }
+        },
+        {
+          "client_id": "531112994482-c5p5tvrme6jt9qfb574c0amtfefsq3ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA42mh5RlY3lKDU8URW50hOgKiG2RzVc9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531112994482-c5p5tvrme6jt9qfb574c0amtfefsq3ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

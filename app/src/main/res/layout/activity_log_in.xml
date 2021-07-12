@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint"
+    tools:context=".LogInActivity"
+    android:id="@+id/layout">
+
+    <ImageView
+        android:src="@drawable/bck"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/phoneNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Numri kontaktues"
+            android:textColorHint="@color/fbutton_color_clouds"
+            app:met_textColorHint="@color/fbutton_color_clouds"
+            android:textColor="@color/fbutton_color_clouds"
+            android:textSize="30dp"
+            android:inputType="phone"
+            app:met_baseColor="@color/fbutton_color_clouds"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="9"
+            app:met_primaryColor="@color/fbutton_color_clouds"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fjalkalimi"
+            android:textColorHint="@color/fbutton_color_clouds"
+            app:met_textColorHint="@color/fbutton_color_clouds"
+            android:textColor="@color/fbutton_color_clouds"
+            android:textSize="30dp"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/fbutton_color_clouds"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/fbutton_color_clouds"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/loginCheckbtn"
+            android:text="Kyqy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="5dp"
+            app:cornerRadius="15dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/mint"
+            app:fButtonColor="@color/fbutton_color_clouds"
+            />
+
+        </LinearLayout>
+
+</RelativeLayout>
